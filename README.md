@@ -1,15 +1,20 @@
-# webhook-mpwa-example
+# mpwa-api-webhook-example
 
-This is an example webhook implementation for building a chatbot integrated with **MPWA (Multi-Device WhatsApp Gateway)**.
+This is an example **Webhook** and **REST API** implementation in PHP for building chatbots and automated integrations with **MPWA (Multi-Device WhatsApp Gateway)**. It demonstrates how to send outbound messages via API and receive/respond to incoming WhatsApp messages using a structured webhook setup.
 
-It demonstrates how to receive and respond to incoming messages using a simple webhook structure.
+## 📁 Repository Structure
 
-## Download Script
+- **`ApiExample/`**  
+  Contains service classes and usage examples for sending outbound WhatsApp messages via REST API (`ApiUsageExample.php`, `MpwaService.php`, and `SimpleCurl.php`).
+- **`SimpleExampleWebhook/`**[cite: 4]  
+  A lightweight, single-file webhook receiver example for handling and replying to incoming messages directly.
+- **`WebhookExample/`**[cite: 4]  
+  A structured webhook implementation separating configuration and message handlers for various incoming message types (text, media, location, and bot commands).
 
-You can download the main MPWA script from the following link:  
-👉 [Download](https://doniaweb.com/topic/17994-whatsapp-gateway-multi-device-v961)
+## 🚀 Getting Started
 
-## Documentation
-
-Full documentation is available here:  
-📘 [MPWA Docs](https://onexgen.com/mpwa/docs/en)
+### 1. Clone the Repository
+Clone this repository to your local machine or web server:
+```bash
+git clone [https://github.com/toryhonda/mpwa-api-webhook-example.git](https://github.com/toryhonda/mpwa-api-webhook-example.git)
+cd mpwa-api-webhook-example
