@@ -6,9 +6,9 @@ This is an example **Webhook** and **REST API** implementation in PHP for buildi
 
 - **`ApiExample/`**  
   Contains service classes and usage examples for sending outbound WhatsApp messages via REST API (`ApiUsageExample.php`, `MpwaService.php`, and `SimpleCurl.php`).
-- **`SimpleExampleWebhook/`**[cite: 4]  
+- **`SimpleExampleWebhook/`**  
   A lightweight, single-file webhook receiver example for handling and replying to incoming messages directly.
-- **`WebhookExample/`**[cite: 4]  
+- **`WebhookExample/`**  
   A structured webhook implementation separating configuration and message handlers for various incoming message types (text, media, location, and bot commands).
 
 ## 🚀 Getting Started
